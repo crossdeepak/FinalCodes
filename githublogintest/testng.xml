@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="true" thread-count="2">
+<listeners>
+<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+</listeners>
+  <test  name="Google Chrome Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cg.githublogintest.test.LoginTest"/>
+    </classes>
+  </test>
+  <!-- <test  name="Fire Fox Test">
+  <parameter name="browser"  value="firefox"/>
+    <classes>
+      <class name="com.cg.project.test.UnitTestForFireFox"/>
+    </classes>
+  </test> -->
+</suite>

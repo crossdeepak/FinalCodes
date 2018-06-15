@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Google Chrome Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.202">
+  <properties />
+  
+  
+            <testcase name="testForInvalidEmailAndUsername" time="2.235" classname="com.cg.githublogintest.test.LoginTest" />
+                <testcase name="testForBlankInput" time="2.161" classname="com.cg.githublogintest.test.LoginTest" />
+                <testcase name="testForInvalidUsername" time="1.909" classname="com.cg.githublogintest.test.LoginTest" />
+                <testcase name="testForInvalidPassword" time="1.890" classname="com.cg.githublogintest.test.LoginTest" />
+                <testcase name="testForInvalidEmail" time="2.007" classname="com.cg.githublogintest.test.LoginTest" />
+      
+</testsuite>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51801" started-at="2018-06-12T11:03:22Z" finished-at="2018-06-12T11:04:14Z">
+    <groups>
+    </groups>
+    <test name="Google Chrome Test" duration-ms="28658" started-at="2018-06-12T11:03:22Z" finished-at="2018-06-12T11:03:51Z">
+      <class name="com.cg.project.test.UnitTestForGoogleChrome">
+        <test-method status="PASS" signature="setUpGoogleChromeTestEnv(java.lang.String)[pri:0, instance:com.cg.project.test.UnitTestForGoogleChrome@45820e51]" name="setUpGoogleChromeTestEnv" is-config="true" duration-ms="4409" started-at="2018-06-12T11:03:22Z" finished-at="2018-06-12T11:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpGoogleChromeTestEnv -->
+        <test-method status="PASS" signature="testWebPage()[pri:0, instance:com.cg.project.test.UnitTestForGoogleChrome@45820e51]" name="testWebPage" duration-ms="22065" started-at="2018-06-12T11:03:26Z" finished-at="2018-06-12T11:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebPage -->
+        <test-method status="PASS" signature="tearDownGoogleChromeTestEnv()[pri:0, instance:com.cg.project.test.UnitTestForGoogleChrome@45820e51]" name="tearDownGoogleChromeTestEnv" is-config="true" duration-ms="2107" started-at="2018-06-12T11:03:48Z" finished-at="2018-06-12T11:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownGoogleChromeTestEnv -->
+      </class> <!-- com.cg.project.test.UnitTestForGoogleChrome -->
+    </test> <!-- Google Chrome Test -->
+    <test name="Google Chrome Test 2" duration-ms="23111" started-at="2018-06-12T11:03:51Z" finished-at="2018-06-12T11:04:14Z">
+      <class name="com.cg.project.test.UnitTestForGoogleChrome">
+        <test-method status="PASS" signature="setUpGoogleChromeTestEnv(java.lang.String)[pri:0, instance:com.cg.project.test.UnitTestForGoogleChrome@462d5aee]" name="setUpGoogleChromeTestEnv" is-config="true" duration-ms="3414" started-at="2018-06-12T11:03:51Z" finished-at="2018-06-12T11:03:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpGoogleChromeTestEnv -->
+        <test-method status="PASS" signature="testWebPage()[pri:0, instance:com.cg.project.test.UnitTestForGoogleChrome@462d5aee]" name="testWebPage" duration-ms="17324" started-at="2018-06-12T11:03:54Z" finished-at="2018-06-12T11:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebPage -->
+        <test-method status="PASS" signature="tearDownGoogleChromeTestEnv()[pri:0, instance:com.cg.project.test.UnitTestForGoogleChrome@462d5aee]" name="tearDownGoogleChromeTestEnv" is-config="true" duration-ms="2372" started-at="2018-06-12T11:04:11Z" finished-at="2018-06-12T11:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownGoogleChromeTestEnv -->
+      </class> <!-- com.cg.project.test.UnitTestForGoogleChrome -->
+    </test> <!-- Google Chrome Test 2 -->
+  </suite> <!-- Suite -->
+</testng-results>

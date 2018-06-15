@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="2" name="Google Chrome Test(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cg.githublogintest.test.LoginTest">
+        <methods>
+          <include name="testForInvalidEmail"/>
+          <include name="testForInvalidEmailAndUsername"/>
+          <include name="testForInvalidPassword"/>
+          <include name="setUptestEnv"/>
+          <include name="tearDowntestEnv"/>
+          <include name="tearDownDriverEnv"/>
+          <include name="testForInvalidUsername"/>
+          <include name="testForBlankInput"/>
+        </methods>
+      </class> <!-- com.cg.githublogintest.test.LoginTest -->
+    </classes>
+  </test> <!-- Google Chrome Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

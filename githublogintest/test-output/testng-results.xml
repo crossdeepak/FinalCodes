@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70682" started-at="2018-06-13T09:43:26Z" finished-at="2018-06-13T09:44:37Z">
+    <groups>
+    </groups>
+    <test name="Google Chrome Test" duration-ms="70682" started-at="2018-06-13T09:43:26Z" finished-at="2018-06-13T09:44:37Z">
+      <class name="com.cg.githublogintest.test.LoginTest">
+        <test-method status="PASS" signature="setUptestEnv(java.lang.String)[pri:0, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="setUptestEnv" is-config="true" duration-ms="11178" started-at="2018-06-13T09:43:27Z" finished-at="2018-06-13T09:43:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUptestEnv -->
+        <test-method status="PASS" signature="testForBlankInput()[pri:1, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="testForBlankInput" duration-ms="2161" started-at="2018-06-13T09:43:38Z" finished-at="2018-06-13T09:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForBlankInput -->
+        <test-method status="PASS" signature="tearDowntestEnv()[pri:0, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="tearDowntestEnv" is-config="true" duration-ms="0" started-at="2018-06-13T09:43:40Z" finished-at="2018-06-13T09:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowntestEnv -->
+        <test-method status="PASS" signature="setUptestEnv(java.lang.String)[pri:0, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="setUptestEnv" is-config="true" duration-ms="9811" started-at="2018-06-13T09:43:40Z" finished-at="2018-06-13T09:43:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUptestEnv -->
+        <test-method status="PASS" signature="testForInvalidUsername()[pri:2, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="testForInvalidUsername" duration-ms="1909" started-at="2018-06-13T09:43:50Z" finished-at="2018-06-13T09:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForInvalidUsername -->
+        <test-method status="PASS" signature="tearDowntestEnv()[pri:0, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="tearDowntestEnv" is-config="true" duration-ms="0" started-at="2018-06-13T09:43:52Z" finished-at="2018-06-13T09:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowntestEnv -->
+        <test-method status="PASS" signature="setUptestEnv(java.lang.String)[pri:0, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="setUptestEnv" is-config="true" duration-ms="10173" started-at="2018-06-13T09:43:52Z" finished-at="2018-06-13T09:44:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUptestEnv -->
+        <test-method status="PASS" signature="testForInvalidPassword()[pri:3, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="testForInvalidPassword" duration-ms="1890" started-at="2018-06-13T09:44:02Z" finished-at="2018-06-13T09:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForInvalidPassword -->
+        <test-method status="PASS" signature="tearDowntestEnv()[pri:0, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="tearDowntestEnv" is-config="true" duration-ms="0" started-at="2018-06-13T09:44:04Z" finished-at="2018-06-13T09:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowntestEnv -->
+        <test-method status="PASS" signature="setUptestEnv(java.lang.String)[pri:0, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="setUptestEnv" is-config="true" duration-ms="10204" started-at="2018-06-13T09:44:04Z" finished-at="2018-06-13T09:44:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUptestEnv -->
+        <test-method status="PASS" signature="testForInvalidEmail()[pri:4, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="testForInvalidEmail" duration-ms="2007" started-at="2018-06-13T09:44:14Z" finished-at="2018-06-13T09:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForInvalidEmail -->
+        <test-method status="PASS" signature="tearDowntestEnv()[pri:0, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="tearDowntestEnv" is-config="true" duration-ms="0" started-at="2018-06-13T09:44:16Z" finished-at="2018-06-13T09:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowntestEnv -->
+        <test-method status="PASS" signature="setUptestEnv(java.lang.String)[pri:0, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="setUptestEnv" is-config="true" duration-ms="18898" started-at="2018-06-13T09:44:16Z" finished-at="2018-06-13T09:44:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUptestEnv -->
+        <test-method status="PASS" signature="testForInvalidEmailAndUsername()[pri:5, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="testForInvalidEmailAndUsername" duration-ms="2235" started-at="2018-06-13T09:44:35Z" finished-at="2018-06-13T09:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForInvalidEmailAndUsername -->
+        <test-method status="PASS" signature="tearDowntestEnv()[pri:0, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="tearDowntestEnv" is-config="true" duration-ms="0" started-at="2018-06-13T09:44:37Z" finished-at="2018-06-13T09:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowntestEnv -->
+        <test-method status="PASS" signature="tearDownDriverEnv()[pri:0, instance:com.cg.githublogintest.test.LoginTest@6ee52dcd]" name="tearDownDriverEnv" is-config="true" duration-ms="169" started-at="2018-06-13T09:44:37Z" finished-at="2018-06-13T09:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriverEnv -->
+      </class> <!-- com.cg.githublogintest.test.LoginTest -->
+    </test> <!-- Google Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>

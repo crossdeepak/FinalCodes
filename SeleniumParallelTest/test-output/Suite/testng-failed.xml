@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="2" name="Google Chrome Test(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cg.project.test.UnitTestForGoogleChrome">
+        <methods>
+          <include name="testWebPage"/>
+          <include name="setUpGoogleChromeTestEnv"/>
+          <include name="tearDownGoogleChromeTestEnv"/>
+        </methods>
+      </class> <!-- com.cg.project.test.UnitTestForGoogleChrome -->
+    </classes>
+  </test> <!-- Google Chrome Test(failed) -->
+  <test thread-count="2" name="Fire Fox Test(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.cg.project.test.UnitTestForFireFox">
+        <methods>
+          <include name="testWebPage"/>
+          <include name="tearDownFireFoxTestEnv"/>
+          <include name="setUpFireFoxTestEnv"/>
+        </methods>
+      </class> <!-- com.cg.project.test.UnitTestForFireFox -->
+    </classes>
+  </test> <!-- Fire Fox Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
